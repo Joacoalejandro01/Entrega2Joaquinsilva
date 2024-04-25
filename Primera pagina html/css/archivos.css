@@ -1,0 +1,115 @@
+    /* CSS para Barra de Navegacion */
+    nav {
+        background-color: #a8bb9a; /* Color de fondo */
+        padding: 40px 0; /* Espaciado interno superior e inferior */
+    }
+
+    /* Lista de elementos de la barra de navegación */
+    nav ul {
+        margin: 0;
+        padding: 0;
+        text-align: center; /* Centra los elementos */
+    }
+
+    /* Estilo de cada elemento de la barra de navegación */
+    nav li {
+        display: inline-block; /* Muestra los elementos en línea */
+        margin: 0 10px; /* Margen entre los elementos */
+    }
+
+    /* Estilo del enlace de cada elemento de la barra de navegación */
+    nav a {
+        color: #000000; /* Color del texto */
+        text-decoration: none; /* Quita el subrayado */
+        font-weight: bold; /* Texto en negrita */
+        padding: 5px 10px; /* Espaciado interno */
+        border-radius: 5px; /* Bordes redondeados */
+        transition: background-color 0.3s; /* Transición suave del color de fondo */
+    }
+    body {
+        background-color: #e4e6c3 !important;
+    }
+    /* Fin del CSS para Barra de Navegacion */
+    
+    /* Centrar el contenido de la sección "VerUltimasActividades" */
+    .contentActividades {
+        margin: 30px auto; /* Margen superior e inferior y auto para centrar horizontalmente */
+        padding: 10px;
+        background-color: #a8bb9a;      
+        border: 1px solid #a8bb9a;
+        border-radius: 8px;
+        max-width: 400px; /* Ancho máximo del contenedor */
+        text-align: center; /* Alinear el texto al centro */
+    }
+    /* Centrar el contenido de la sección "Sello educativo" */
+    .contentSello {
+        margin: 140px auto 30px; /* Margen superior e inferior y auto para centrar horizontalmente */
+        padding: 10px;
+        background-color: #a8bb9a;
+        border: 1px solid #a8bb9a;
+        border-radius: 8px;
+        max-width: 400px; /* Ancho máximo del contenedor */
+        text-align: center; /* Alinear el texto al centro */
+        
+    }
+    /* CSS para CARD1, CARD2, CARD3 y CARD4 */
+    .card1, .card2, .card3, .card4 {  
+        background-color: #e4e6c3;
+        border: 1px solid #000000; /* Borde sólido gris de 2px */
+        padding: 20px; /* Espaciado interno */
+        margin-bottom: 20px; /* Margen inferior */
+        margin-top: 20px;
+        width: 350px; /* Tamaño de la tarjeta, menos el margen */
+        display: inline-block; /* Mostrar las tarjetas en línea */
+        vertical-align: top; /* Alinear las tarjetas arriba */
+    }
+
+    /* Estilos para el contenido de las tarjetas */
+    .card-content1, .card-content2, .card-content3, .card-content4 {
+        text-align: center; /* Alineación del contenido al centro */
+    }
+
+    /* Estilos para la imagen dentro de la tarjeta */
+    .card1 img, .card2 img, .card3 img, .card4 img {
+        width: 100%; /* Ajustar imagen al ancho de la tarjeta */
+        height: auto; /* Altura automática */
+        max-width: 100%; /* Asegurar que la imagen no sea más grande que la tarjeta */
+        max-height: 150px; /* Altura máxima de la imagen */
+    
+    }
+    /* CSS para Mensaje de nuestro director */
+    .title-container {
+        text-align: left;
+        max-width: auto;
+        margin-top: 100px;
+        margin-right: auto;
+        padding: 20px;
+        background-color: #a8bb9a;
+        border: 2px solid #a8bb9a; 
+        border-radius: 10px;
+    }
+    .content {
+        max-width: 800px; 
+        margin: 0 auto;
+        
+    }
+    /* Fin del CSS para Mensaje de nuestro director */
+        
+
+    /* Centrar el contenido de la sección "Registrate con nosotros" */
+    .contentRegistrate {
+        margin: 140px auto 30px; /* Margen superior e inferior y auto para centrar horizontalmente */
+        padding: 10px;
+        background-color: #a8bb9a;
+        border: 1px solid #a8bb9a;
+        border-radius: 8px;
+        max-width: 400px; /* Ancho máximo del contenedor */
+        text-align: center; /* Alinear el texto al centro */
+    }
+    #formulario {
+        background-color: #ffffff;
+        border: 2px solid #ccc; /* Agrega un borde de 2px sólido de color gris claro */
+        padding: 20px; /* Agrega espacio interno al formulario */
+        margin-top: 50px; /* Agrega margen superior para separarlo del carrusel */
+    }
+    
